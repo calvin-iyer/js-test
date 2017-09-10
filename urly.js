@@ -3,6 +3,10 @@ function test() {
 		setTimeout(test,3000);
     } else {
 		document.getElementById('skip_button2').click();
+	    	setTimeout(click2,2000);
     }
+}
+function click2() {
+	document.getElementById('skip_button1').click();
 }
 test();
