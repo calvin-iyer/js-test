@@ -1,6 +1,4 @@
 function scrollWin() {
   window.scrollBy(0, 500);
 }
-window.onload = function() {
-  setTimeout(scrollWin,600);
-};
+setTimeout(scrollWin,25000);
